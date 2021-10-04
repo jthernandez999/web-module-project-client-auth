@@ -29,7 +29,7 @@ Topics:
 * All of the API endpoints (except the login endpoint) are considered "protected", meaning you have to make the request with an authentication token in the header or the API will send back a `401` error. 
 * Take your examples from the guided project and use them to build a more sophisticated application. Have fun!
 * Once your server is up and running, the URL you'll be able to hit from within your app is `http://localhost:5000`. You will however need an authentication header on all the calls except the login call.
-* Take a look at the endpoints that our API has to offer in `server.js`.
+* 
 
   * **[POST]** * to `/api/login`: returns a token to be added to the header of all other requests. Pass in the following credentials as the `body` of the request: `{ username: 'lambda', password: 'school' }`
   * **[POST]** * to `/api/logout`: removes a token from active use. Returns the inactive token. 
